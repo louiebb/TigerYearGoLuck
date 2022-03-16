@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="EYXrWHRw36YsGv9UddAB" name="第 1 页">
+        <mxGraphModel dx="746" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="170" width="240" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="ECStack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="150" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="410" width="180" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="GEC(global exection context)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="387" width="180" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="VO(variable Object):GO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="410" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="开始执行代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="470" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="toString: Function&lt;br&gt;window: 0x0001&lt;br&gt;name: undefined&lt;br&gt;foo: Function -&amp;gt;&amp;nbsp;&lt;span&gt;0x0001&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="60" width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="GO&amp;nbsp; 0x0001" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="40" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="foo 0x0001" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="353" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="[[scope]] : parent scope&lt;br&gt;代码块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="373" width="160" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
