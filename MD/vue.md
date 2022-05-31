@@ -2,6 +2,18 @@
 
 ## vue
 
+### 组件生命周期的过程
+
+* 渲染过程
+  父beforeCreate > 父created > 父beforeMount > 子beforeCreated > 子created > 子beforeMount > 子mounted > 父mounted
+* 子组件更新过程
+  父beforeUpdate > 子beforeUpdate > 子updated > 父updated
+* 父组件更新过程
+  父beforeUpdate > 父updated
+* 销毁过程
+  父beforeDestroy > 子组件beforeDestroy > 子destroyed > 父destroyed
+
+
 ## vue-router
 
 - 本质
