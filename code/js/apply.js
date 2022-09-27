@@ -20,3 +20,5 @@ Function.prototype.bApply = function (thisArg, arg = []){
     return result
 }
 food.bApply(0, ['h5'])
+
+//测试github 远程提交
